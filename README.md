@@ -1,6 +1,6 @@
 # The One Theme
 
-> A dark theme for [iTerm](http://www.iterm2.com/) based on [Atom's](http://atom.io/) One Dark syntax theme.
+> A dark theme for [iTerm](http://www.iterm2.com/), and [Slack](http://slack.com/) based on [Atom's](http://atom.io/) One Dark syntax theme.
 
 ## Install
 
@@ -25,6 +25,18 @@ Download using the [GitHub .zip download](https://github.com/benniemosher/the-on
 1. Click Import...
 1. Select the `iterm/TheOne.itermcolors` file
 1. Select "The One" from Load Presets...
+
+### Slack
+
+#### Install manually
+
+1. Go to User Menu > Preferences > Sidebar Theme
+1. In the bottom of the window, look for a "customize your theme and share it with others" link
+1. Copy and paste the values below
+
+```
+#272B33,#3e4451,#3e4451,#61AFEF,#5b626f,#FFFFFF,#97C279,#DF6B75
+```
 
 ## Roadmap
 
@@ -64,7 +76,7 @@ Yellow 2     | `#f2ce97` | `242 206 151` | `36° 78% 77%`
 
 The One is a project created by [Bennie Mosher](https://github.com/benniemosher/) with the help of many awesome [contributors](https://github.com/benniemosher/the-one-theme/graphs/contributors). For each code editor theme there's a specific maintainer, that way we can achieve more and more code editors and still keep the quality high.
 
-* [@benniemosher](https://github.com/bennieomsher/) - iTerm
+* [@benniemosher](https://github.com/bennieomsher/) - iTerm, Slack
 
 ## Contributing
 
