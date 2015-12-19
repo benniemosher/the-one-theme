@@ -2,6 +2,30 @@
 
 > A dark theme for [iTerm](http://www.iterm2.com/) based on [Atom's](http://atom.io/) One Dark syntax theme.
 
+## Install
+
+### iTerm 2
+
+#### Install using Git
+
+If you are a git user, you can install the theme and keep up to date by cloning the repo:
+
+```
+$ git clone https://github.com/benniemosher/the-one-theme/
+```
+
+#### Install manually
+
+Download using the [GitHub .zip download](https://github.com/benniemosher/the-one-theme/archive/master.zip) option and unzip them.
+
+#### Activating theme
+
+1. iTerm2 > Preferences > Profiles > Colors Tab
+1. Click Load Presets...
+1. Click Import...
+1. Select the `iterm/TheOne.itermcolors` file
+1. Select "The One" from Load Presets...
+
 ## Roadmap
 
 ###### "Are you going to create a light color scheme?"
