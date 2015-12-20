@@ -1,6 +1,6 @@
 # The One Theme
 
-> A dark theme for [iTerm](http://www.iterm2.com/), and [Slack](http://slack.com/) based on [Atom's](http://atom.io/) One Dark syntax theme.
+> A dark theme for [iTerm](http://www.iterm2.com/), [Slack](http://slack.com/), and [Terminal](https://en.wikipedia.org/wiki/Terminal_%28OS_X%29) based on [Atom's](http://atom.io/) One Dark syntax theme.
 
 ## Install
 
@@ -37,6 +37,29 @@ Download using the [GitHub .zip download](https://github.com/benniemosher/the-on
 ```
 #272B33,#3e4451,#3e4451,#61AFEF,#5b626f,#FFFFFF,#97C279,#DF6B75
 ```
+
+### Terminal
+
+#### Install using Git
+
+If you are a git user, you can install the theme and keep up to date by cloning the repo:
+
+```
+$ git clone https://github.com/benniemosher/the-one-theme/
+```
+
+#### Install manually
+
+Download using the [GitHub .zip download](https://github.com/benniemosher/the-one-theme/archive/master.zip) option and unzip them.
+
+#### Activating theme
+
+1. Terminal > Settings Tab
+1. Click "Gear" icon
+1. Click Import...
+1. Select the `terminal/TheOne.terminal` file
+1. Click Default
+
 
 ## Roadmap
 
@@ -76,7 +99,7 @@ Yellow 2     | `#f2ce97` | `242 206 151` | `36° 78% 77%`
 
 The One is a project created by [Bennie Mosher](https://github.com/benniemosher/) with the help of many awesome [contributors](https://github.com/benniemosher/the-one-theme/graphs/contributors). For each code editor theme there's a specific maintainer, that way we can achieve more and more code editors and still keep the quality high.
 
-* [@benniemosher](https://github.com/bennieomsher/) - iTerm, Slack
+* [@benniemosher](https://github.com/bennieomsher/) - iTerm, Slack, and Terminal
 
 ## Contributing
 
