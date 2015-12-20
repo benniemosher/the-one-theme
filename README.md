@@ -1,6 +1,6 @@
 # The One Theme
 
-> A dark theme for [iTerm](http://www.iterm2.com/), [Slack](http://slack.com/), and [Terminal](https://en.wikipedia.org/wiki/Terminal_%28OS_X%29) based on [Atom's](http://atom.io/) One Dark syntax theme.
+> A dark theme for [iTerm](http://www.iterm2.com/), [Slack](http://slack.com/), [Terminal](https://en.wikipedia.org/wiki/Terminal_%28OS_X%29), and [ZSH](http://www.zsh.org/) based on [Atom's](http://atom.io/) One Dark syntax theme.
 
 ## Install
 
@@ -60,6 +60,32 @@ Download using the [GitHub .zip download](https://github.com/benniemosher/the-on
 1. Select the `terminal/TheOne.terminal` file
 1. Click Default
 
+### ZSH
+
+#### Install using Git
+
+If you are a git user, you can install the theme and keep up to date by cloning the repo:
+
+```
+$ git clone https://github.com/benniemosher/the-one-theme/
+```
+
+And creating a symbolic link to [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/)'s theme folder:
+
+```
+$ ln -s $THE_ONE_THEME/zsh/TheOne.zsh-theme $OH_MY_ZSH/themes/TheOne.zsh-theme
+```
+
+P.S.: Remember that you should replace $THE_ONE_THEME and $OH_MY_ZSH to the actual directories for this command to work.
+
+#### Install manually
+
+1. Download using the [GitHub .zip download](https://github.com/benniemosher/the-one-theme/archive/master.zip) option and unzip them.
+1. Move zsh/TheOne.zsh-theme file to oh-my-zsh's theme folder: oh-my-zsh/themes/TheOne.zsh-theme.
+
+#### Activating theme
+
+Go to your ~/.zshrc file and set ZSH_THEME="TheOne".
 
 ## Roadmap
 
@@ -99,7 +125,7 @@ Yellow 2     | `#f2ce97` | `242 206 151` | `36° 78% 77%`
 
 The One is a project created by [Bennie Mosher](https://github.com/benniemosher/) with the help of many awesome [contributors](https://github.com/benniemosher/the-one-theme/graphs/contributors). For each code editor theme there's a specific maintainer, that way we can achieve more and more code editors and still keep the quality high.
 
-* [@benniemosher](https://github.com/bennieomsher/) - iTerm, Slack, and Terminal
+* [@benniemosher](https://github.com/bennieomsher/) - iTerm, Slack, Terminal, and ZSH
 
 ## Contributing
 
