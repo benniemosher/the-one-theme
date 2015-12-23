@@ -25,23 +25,23 @@
 				<key>background</key>
 				<string>#272B33</string>
 				<key>caret</key>
-				<string>#f8f8f0</string>
+				<string>#528bff</string>
 				<key>foreground</key>
 				<string>#abb2c0</string>
 				<key>invisibles</key>
-				<string>#3B3A32</string>
+				<string>#abb2bf</string>
 				<key>lineHighlight</key>
 				<string>#2c323d</string>
 				<key>selection</key>
 				<string>#3e4451</string>
 				<key>findHighlight</key>
-				<string>#effb7b</string>
+				<string>#abb2bf</string>
 				<key>findHighlightForeground</key>
-				<string>#000000</string>
+				<string>#528bff</string>
 				<key>selectionBorder</key>
-				<string>#222218</string>
+				<string>#3e4451</string>
 				<key>activeGuide</key>
-				<string>#9D550FB0</string>
+				<string>#0a3a61B0</string>
 				<key>bracketsForeground</key>
 				<string>#abb2c0A5</string>
 				<key>bracketsOptions</key>
