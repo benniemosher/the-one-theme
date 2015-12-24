@@ -9,7 +9,7 @@
 # Code licensed under the MIT license
 # http://benniemosher.mit-license.org
 #
-# @author Bennie Mosher <benniemosher@gmail.com>
+# @author Bennie Mosher <<benniemosher@gmail.com>>
 -->
 
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -23,31 +23,31 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#282a36</string>
+				<string>#272B33</string>
 				<key>caret</key>
-				<string>#f8f8f0</string>
+				<string>#528bff</string>
 				<key>foreground</key>
-				<string>#f8f8f2</string>
+				<string>#abb2c0</string>
 				<key>invisibles</key>
-				<string>#3B3A32</string>
+				<string>#abb2bf</string>
 				<key>lineHighlight</key>
-				<string>#44475a</string>
+				<string>#2c323d</string>
 				<key>selection</key>
-				<string>#44475a</string>
+				<string>#3e4451</string>
 				<key>findHighlight</key>
-				<string>#effb7b</string>
+				<string>#abb2bf</string>
 				<key>findHighlightForeground</key>
-				<string>#000000</string>
+				<string>#528bff</string>
 				<key>selectionBorder</key>
-				<string>#222218</string>
+				<string>#3e4451</string>
 				<key>activeGuide</key>
-				<string>#9D550FB0</string>
+				<string>#0a3a61B0</string>
 				<key>bracketsForeground</key>
-				<string>#F8F8F2A5</string>
+				<string>#abb2c0A5</string>
 				<key>bracketsOptions</key>
 				<string>underline</string>
 				<key>bracketContentsForeground</key>
-				<string>#F8F8F2A5</string>
+				<string>#abb2c0A5</string>
 				<key>bracketContentsOptions</key>
 				<string>underline</string>
 				<key>tagsOptions</key>
@@ -62,7 +62,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6272a4</string>
+				<string>#5b626f</string>
 				<key>fontStyle</key>
 				<string></string>
 			</dict>
@@ -360,7 +360,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6272a4</string>
+				<string>#5b626f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -524,12 +524,12 @@
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>83091B89-765E-4F0D-9275-0EC6CB084126</string>
+	<string>8ebe1e30-b4ff-4417-8b6c-f4bbace51f28</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>theme.dracula</string>
+	<string>theme.theone</string>
 	<key>author</key>
-	<string>Zeno Rocha</string>
+	<string>Bennie Mosher</string>
 </dict>
 </plist>
