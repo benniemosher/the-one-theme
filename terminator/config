@@ -1,0 +1,29 @@
+[global_config]
+	title_transmit_bg_color = "#be5046"
+	focus = system
+[keybindings]
+[profiles]
+	[[default]]
+		# theone
+		# palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+		# foreground_color = "#eee8d5"
+		# background_color = "#002b36"
+		# cursor_color = "#eee8d5"
+
+	[[theone]]
+		# palette = "#abb2bf:#828997:#5c6370:#56b6c2:#61afef:#c678dd:#98c379:#e06c75:#be5046:#d19a66:#e5c07b"
+		palette = "#272B33:#e06c75:#98c379:#d19a66:#61afef:#c678dd:#56b6c2:#abb2c0:#272B33:#e5c07b:#5c6370:#828997:#abb2bf:#c678dd:#abb2bf:#abb2c0"
+		foreground_color = "#abb2c0"
+		background_color = "#272B33"
+		cursor_color = "#abb2c0"
+
+	[layouts]
+		[[default]]
+			[[[child1]]]
+				type = Terminal
+				parent = window0
+				profile = theone
+			[[[window0]]]
+				type = Window
+				parent = ""
+	[plugins]
