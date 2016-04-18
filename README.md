@@ -1,6 +1,6 @@
 # The One Theme
 
-> A dark theme for [iTerm](http://www.iterm2.com/), [Slack](http://slack.com/), [Terminal](https://en.wikipedia.org/wiki/Terminal_%28OS_X%29), and [ZSH](http://www.zsh.org/) based on [Atom's](http://atom.io/) One Dark syntax theme.
+> A dark theme for [iTerm](http://www.iterm2.com/), [Slack](http://slack.com/), [Terminal](https://en.wikipedia.org/wiki/Terminal_%28OS_X%29), [Terminator](http://gnometerminator.blogspot.com/p/introduction.html), and [ZSH](http://www.zsh.org/) based on [Atom's](http://atom.io/) One Dark syntax theme.
 
 ## Install
 
@@ -59,6 +59,39 @@ Download using the [GitHub .zip download](https://github.com/benniemosher/the-on
 1. Click Import...
 1. Select the `terminal/TheOne.terminal` file
 1. Click Default
+
+### Terminator
+
+#### Install using Git
+
+If you are a git user, you can install the theme and keep up to date by cloning the repo:
+
+```
+$ git clone https://github.com/benniemosher/the-one-theme/
+```
+
+And copy `terminator/config` to terminator config location:
+
+```
+mkdir -p ~/.config/terminator/
+cp $THE_ONE_THEME/terminator/config ~/.config/terminator/
+```
+
+P.S.: Remember that you should replace $THE_ONE_THEME to the actual directories for this command to work.
+
+#### Install manually
+
+Download using the [GitHub .zip download](https://github.com/benniemosher/the-one-theme/archive/master.zip) option and unzip them.
+
+And copy `terminator/config` to terminator config location:
+
+```
+mkdir -p ~/.config/terminator/
+cp $THE_ONE_THEME/terminator/config ~/.config/terminator/
+```
+
+P.S.: Remember that you should replace $THE_ONE_THEME to the actual directories for this command to work.
+
 
 ### ZSH
 
