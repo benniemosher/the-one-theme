@@ -1,0 +1,25 @@
+{
+  "name": "The One",
+  "use-theme-colors": false,
+  "background-color": "#272B33",
+  "comment": "#5b626f",
+  "foreground-color": "#abb2c0",
+  "palette": [
+      "#000000",
+      "#DF6B75",
+      "#97C279",
+      "#D19965",
+      "#61AFEF",
+      "#C578DD",
+      "#56B5C2",
+      "#ABB2BF",
+      "#5C6370",
+      "#BE5046",
+      "#abdc89",
+      "#E4BF7A",
+      "#65b6f8",
+      "#d682f0",
+      "#66d7e6",
+      "#ABB2BF"
+  ]
+}
