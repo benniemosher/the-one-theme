@@ -1,0 +1,86 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":gitSignOff"
+  ],
+  "timezone": "America/Denver",
+  "schedule": [
+    "after 10pm every weekday",
+    "before 5am every weekday",
+    "every weekend"
+  ],
+  "dependencyDashboard": true,
+  "dependencyDashboardTitle": "Renovate Dependency Dashboard",
+  "semanticCommits": "enabled",
+  "commitMessagePrefix": "chore(deps):",
+  "commitMessageAction": "update",
+  "commitMessageExtra": "to {{newValue}}",
+  "commitMessageTopic": "{{depName}}",
+  "automerge": false,
+  "platformAutomerge": false,
+  "rebaseWhen": "behind-base-branch",
+  "labels": [
+    "dependencies",
+    "renovate"
+  ],
+  "assignees": [
+    "@benniemosher"
+  ],
+  "reviewers": [],
+  "vulnerabilityAlerts": {
+    "labels": [
+      "security",
+      "dependencies"
+    ],
+    "assignees": [
+      "@benniemosher"
+    ]
+  },
+  "packageRules": [
+    {
+      "description": "GitHub Actions - automerge patch/minor",
+      "matchManagers": [
+        "github-actions"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "automerge": true,
+      "automergeType": "pr"
+    },
+    {
+      "description": "npm dependencies - group minor and patch updates",
+      "matchManagers": [
+        "npm"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "npm dependencies (non-major)"
+    },
+    {
+      "description": "Pre-commit hooks - major/minor only (skip patches)",
+      "matchManagers": [
+        "pre-commit"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor"
+      ],
+      "groupName": "pre-commit hooks"
+    },
+    {
+      "description": "Pre-commit hooks - ignore patch updates",
+      "matchManagers": [
+        "pre-commit"
+      ],
+      "matchUpdateTypes": [
+        "patch"
+      ],
+      "enabled": false
+    }
+  ]
+}
